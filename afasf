@@ -1,0 +1,29 @@
+[33mcommit f87e636820333e2059910f59d1e80d5b3804758a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mWorking-on-Home-Page[m[33m)[m
+Author: Muhammad-Muzzamal <ashrafmuzzamal7@gmail.com>
+Date:   Thu Feb 26 11:32:14 2026 +0500
+
+    hero, stats, section complete
+
+[33mcommit 60deea4670fc0ae85bfeeb359f65c45ea42029c8[m
+Author: Muhammad-Muzzamal <ashrafmuzzamal7@gmail.com>
+Date:   Thu Feb 26 09:44:29 2026 +0500
+
+    minor setup complete {bootstrap, fontawsome is working}
+
+[33mcommit 1d3886440a0ad568f8d5fface1699aaea20a9901[m[33m ([m[1;32mfrontend-file-directory-setup[m[33m)[m
+Author: Muhammad-Muzzamal <ashrafmuzzamal7@gmail.com>
+Date:   Thu Feb 26 09:33:47 2026 +0500
+
+    create file and folder structure for project
+
+[33mcommit 3b871e4761df6250bf2029ad7445811ce22f359b[m[33m ([m[1;32madd-bootstrap-and-fontawsome-links[m[33m)[m
+Author: Muhammad-Muzzamal <ashrafmuzzamal7@gmail.com>
+Date:   Thu Feb 26 09:14:23 2026 +0500
+
+    Add bootstrap cdn for styling and fontawsome icon library
+
+[33mcommit 127f1e220979c795aaf9465bb311790befae1e2c[m[33m ([m[1;32msetup-frontend-project[m[33m)[m
+Author: Muhammad-Muzzamal <ashrafmuzzamal7@gmail.com>
+Date:   Thu Feb 26 09:04:23 2026 +0500
+
+    initial setup of frontend
