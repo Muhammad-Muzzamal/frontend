@@ -1,18 +1,18 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg border-bottom sticky-top bg-white py-3">
       <div className="container">
         {/* Logo - Adjusted width for better visibility */}
-        <a className="navbar-brand" href="#">
-          <img 
-            src="media/images/logo.svg" 
-            alt="Logo" 
-            style={{ width: "20%" }} 
+        <Link className="navbar-brand" to="/">
+          <img
+            src="media/images/logo.svg"
+            alt="Logo"
+            style={{ width: "20%" }}
             className="img-fluid"
           />
-        </a>
+        </Link>
 
         {/* Mobile Toggle */}
         <button
@@ -31,19 +31,29 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto align-items-center">
             <li className="nav-item px-3">
-              <a className="nav-link text-muted fw-medium" href="#">Signup</a>
+              <Link className="nav-link text-muted fw-medium" to="/signup">
+                Signup
+              </Link>
             </li>
             <li className="nav-item px-3">
-              <a className="nav-link text-muted fw-medium" href="#">About</a>
+              <Link className="nav-link text-muted fw-medium" to="/about">
+                About
+              </Link>
             </li>
             <li className="nav-item px-3">
-              <a className="nav-link text-muted fw-medium" href="#">Products</a>
+              <Link className="nav-link text-muted fw-medium" to="/products">
+                Products
+              </Link>
             </li>
             <li className="nav-item px-3">
-              <a className="nav-link text-muted fw-medium" href="#">Pricing</a>
+              <Link className="nav-link text-muted fw-medium" to="/pricing">
+                Pricing
+              </Link>
             </li>
             <li className="nav-item px-3">
-              <a className="nav-link text-muted fw-medium" href="#">Support</a>
+              <Link className="nav-link text-muted fw-medium" to="/support">
+                Support
+              </Link>
             </li>
             <li className="nav-item px-3">
               <a className="nav-link text-muted" href="#">
