@@ -2,7 +2,7 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <div className='container p-5'>
+    <div className='container p-5 mb-5'>
       <div className="row">
         <div className="col-6 mt-5 pt-4">
           <h1 className='mb-5 h2'>Trust with Confidance</h1>
