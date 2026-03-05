@@ -1,9 +1,60 @@
-import React from 'react'
+import React from "react";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container">
+        <a class="navbar-brand" href="#">
+          <img src="media/images/logo.svg" alt="Logo" className="w-25"/>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active ps-3">
+              <a class="nav-link active" href="#">
+                Signup
+              </a>
+            </li>
+            <li class="nav-item active ps-3">
+              <a class="nav-link active" href="#">
+                About
+              </a>
+            </li>
+            <li class="nav-item active ps-3">
+              <a class="nav-link active" href="#">
+                Products
+              </a>
+            </li>
+            <li class="nav-item active ps-3">
+              <a class="nav-link active" href="#">
+                Pricing
+              </a>
+            </li>
+            <li class="nav-item active ps-3">
+              <a class="nav-link active" href="#">
+                Support
+              </a>
+            </li>
+            <li class="nav-item active ps-3">
+              <a class="nav-link active" href="#">
+                <i class="fa-solid fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
