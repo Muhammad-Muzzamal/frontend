@@ -2,52 +2,52 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 pb-3 bg-white border-bottom">
+    <nav className="navbar navbar-expand-lg border-bottom sticky-top bg-white py-3">
       <div className="container">
-        <a class="navbar-brand" href="#">
-          <img src="media/images/logo.svg" alt="Logo" className="w-25"/>
+        {/* Logo - Adjusted width for better visibility */}
+        <a className="navbar-brand" href="#">
+          <img 
+            src="media/images/logo.svg" 
+            alt="Logo" 
+            style={{ width: "20%" }} 
+            className="img-fluid"
+          />
         </a>
+
+        {/* Mobile Toggle */}
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active ps-3">
-              <a class="nav-link active" href="#">
-                Signup
-              </a>
+
+        {/* Links - Pushed to the right using ms-auto */}
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto align-items-center">
+            <li className="nav-item px-3">
+              <a className="nav-link text-muted fw-medium" href="#">Signup</a>
             </li>
-            <li class="nav-item active ps-3">
-              <a class="nav-link active" href="#">
-                About
-              </a>
+            <li className="nav-item px-3">
+              <a className="nav-link text-muted fw-medium" href="#">About</a>
             </li>
-            <li class="nav-item active ps-3">
-              <a class="nav-link active" href="#">
-                Products
-              </a>
+            <li className="nav-item px-3">
+              <a className="nav-link text-muted fw-medium" href="#">Products</a>
             </li>
-            <li class="nav-item active ps-3">
-              <a class="nav-link active" href="#">
-                Pricing
-              </a>
+            <li className="nav-item px-3">
+              <a className="nav-link text-muted fw-medium" href="#">Pricing</a>
             </li>
-            <li class="nav-item active ps-3">
-              <a class="nav-link active" href="#">
-                Support
-              </a>
+            <li className="nav-item px-3">
+              <a className="nav-link text-muted fw-medium" href="#">Support</a>
             </li>
-            <li class="nav-item active ps-3">
-              <a class="nav-link active" href="#">
-                <i class="fa-solid fa-bars"></i>
+            <li className="nav-item px-3">
+              <a className="nav-link text-muted" href="#">
+                <i className="fa-solid fa-bars fs-5"></i>
               </a>
             </li>
           </ul>
