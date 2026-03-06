@@ -9,7 +9,7 @@ const Hero = () => {
           Now, we are breaking ground with our technology.
         </h1>
       </div>
-      <div className="row p-5 mt-5 text-muted">
+      <div className="row p-5 mt-5 text-muted" style={{lineHeight : "2em"}}>
         <div class="col-6 p-5">
           <p>
             We kick-started operations on the 15th of August, 2010 with the goal
