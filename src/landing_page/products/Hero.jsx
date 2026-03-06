@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="container">
+    <div className="container border-bottom">
       <div class="text-center mt-5 mb-5">
         <h2>Technology</h2>
         <p>Sleek, modern and intuitive trading platforms</p>
